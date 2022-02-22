@@ -1,0 +1,16 @@
+{
+  "name": "is-sdk-authentication-demo",
+  "version": "1.0.0",
+  "description": "IOTA IS SDK demo on how to authenticate to the Integration Services API",
+  "main": "authentication.js",
+  "type": "module",
+  "scripts": {
+    "start": "node authentication.js"
+  },
+  "keywords": [],
+  "author": "Tim Sigl (tim.sigl@hotmail.de)",
+  "license": "ISC",
+  "dependencies": {
+    "iota-is-sdk": "^0.0.9"
+  }
+}
