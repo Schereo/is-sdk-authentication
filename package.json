@@ -11,6 +11,6 @@
   "author": "Tim Sigl (tim.sigl@hotmail.de)",
   "license": "ISC",
   "dependencies": {
-    "iota-is-sdk": "^0.0.9"
+    "@iota/is-client": "0.1.6"
   }
 }

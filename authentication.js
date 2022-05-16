@@ -1,8 +1,10 @@
-import { IdentityClient, ChannelClient, ApiVersion } from 'iota-is-sdk';
+import { IdentityClient, ChannelClient, ApiVersion } from '@iota/is-client';
 
 const authenticate = async (identityId, secretKey) => {
   const config = {
-    baseUrl: 'http://localhost:3000',
+    ssiBridgeUrl: 'http://localhost:3001',
+    auditTrailUrl: 'http://localhost:3002',
+    useGatewayUrl: false,
     apiVersion: ApiVersion.v01
   };
 
